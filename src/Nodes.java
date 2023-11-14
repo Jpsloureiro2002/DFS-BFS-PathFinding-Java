@@ -1,8 +1,5 @@
 
 
-
-//get e setter senao altera o valor 
-
 public class Nodes {
     public int dir;
     public int[] pos = new int[2];
