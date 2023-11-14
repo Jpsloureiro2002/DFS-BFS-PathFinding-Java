@@ -56,7 +56,7 @@ import java.awt.*;
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
 
-            int cellSize = 50; // Ajuste conforme necessário
+            int cellSize = 50;
 
             for (int y = 0; y < map.getViwemap().length; y++) {
                 for (int x = 0; x < map.getViwemap()[y].length; x++) {
