@@ -37,8 +37,11 @@ import java.awt.*;
             }
         }
 
-        Agent robo = new Agent(1, pos, map, goal);
-        robo.BFS();
+        Agent robot = new Agent(1, pos, map, goal);
+
+        //Change here the BFS or DFS or uncomment
+        //robot.DFS();
+        robot.BFS();
         SwingUtilities.invokeLater(() -> new App(map));
     }
 
