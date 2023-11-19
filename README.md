@@ -6,7 +6,7 @@ The code contains a visual part in App.java just for visual results, but the age
 
 - 1 ->  Wall
 
-- 0 -> Wallcable Path
+- 0 -> Walkable path
 
 - 9 -> Spawn or Start Position
 
